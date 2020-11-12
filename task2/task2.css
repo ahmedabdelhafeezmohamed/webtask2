@@ -1,0 +1,116 @@
+*
+{
+	padding:0px;
+	margin: 0px;
+}
+body
+{
+	background:url("background.png") no-repeat fixed center;
+	background-size:100%; 
+}
+h1
+{
+	color:#fff;
+	margin: 3%;
+	display: inline;
+}
+aside 
+{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	background:#3777ca;
+	width: 20%;
+	height: 100%;
+	opacity: 70%;
+    text-align: right;
+    visibility: hidden;
+}
+aside:hover
+{
+	visibility: visible;
+}
+aside img
+{
+	width: 20%;
+	height: 15%;
+	padding: 5%;
+	margin: 5%;
+	visibility:visible;
+}
+aside div
+{
+	text-align: center;
+	padding-top: 30%;
+}
+aside div a
+{
+	display: block;
+	padding: 5%;
+	font-size: 150%;
+	text-decoration: none;
+	color: #fff;
+}
+a:hover
+{
+	background:#377;
+}
+section
+{
+	background: #fff;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	padding: 1%;
+	text-align: center;
+
+}
+.container
+{
+	border-radius: 3%;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom:5%;
+	padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container h1,h3,input,button
+{
+	margin: 5%;
+}
+.container h1
+{
+		color:#3777ca;
+}
+input,button
+{
+	width: 90%;
+	height: 50px;
+	border-radius: 50px;
+	text-align: center;
+}
+button
+{
+	background: #3777ca;
+	height: 40px;
+}
+.container img
+{
+	width:30px;
+	height: 30px;
+	padding: 20px;
+	margin: 10px;
+	position: absolute;
+}
+.input
+{
+	display: 
+}
+section a
+{
+	text-decoration: none;
+	color: #3777ca;
+}
